@@ -1,0 +1,46 @@
+#stats {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+.points{
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    top: 70%;
+    right: 7%;
+    font-size: 0;
+    /* white-space: nowrap; */
+}
+.points button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1%;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 3%;
+    width: 31.3333%;
+    border: 1px solid yellow;
+    background: rgb(0,0,0,0.5);
+    color:#fff;
+    box-shadow: 0 0 10px transparent;
+    transition: 0.5s;
+}
+.points button:hover {
+    color:yellow;
+    box-shadow: 0 0 10px yellow;
+}
+.points .active {
+    color:yellow;
+    box-shadow: 0 0 10px yellow;
+}
+.points .unclick{
+    pointer-events: none;
+}
